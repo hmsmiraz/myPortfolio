@@ -5,11 +5,16 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("public/projects.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
+    fetch("public/Projects.json")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return res.json();
+      })
+      .then((data) => setProjects(data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
-  //   console.log(projects);
   return (
     <div className="my-5">
       <div>
@@ -25,11 +30,7 @@ const Projects = () => {
             className="card card-compact bg-base-100 shadow-xl"
           >
             <figure>
-              <img
-                src={project.image}
-                alt="project"
-                className="h-60"
-              />
+              <img src={project.image} alt="project" className="h-60" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{project.name}</h2>

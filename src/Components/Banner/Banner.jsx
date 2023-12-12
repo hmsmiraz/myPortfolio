@@ -53,7 +53,7 @@ const Banner = () => {
             </span>
           </h1>
           <div className="my-2">
-            <a href={ResumePdf} className="btn btn-primary" download={"Resume"}>
+            <a href={ResumePdf} className="btn btn-primary text-white" download={"Resume"}>
               Download Resume
             </a>
           </div>
