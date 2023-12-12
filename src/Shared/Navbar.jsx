@@ -11,8 +11,10 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <img src="/I.svg" alt="" className="text-center h-16 w-16" />
-        <a className="btn btn-ghost text-xl font-bold pl-0 pb-3">HMSMIRAZ</a>
+        <img src="/I.svg" alt="" className="h-16 w-16" />
+        <a className="btn btn-ghost text-xl font-bold">
+          HMS<span className="text-cyan-500">MIRAZ</span>
+        </a>
       </div>
 
       <div className="navbar-end md:hidden lg:hidden ">
