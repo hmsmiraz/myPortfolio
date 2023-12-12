@@ -4,7 +4,19 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="/skills">SKills</NavLink>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/skills">Skills</NavLink>
+      </li>
+      <li>
+        <NavLink to="/education">Education</NavLink>
+      </li>
+      <li>
+        <NavLink to="/projects">Projects</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </>
   );
