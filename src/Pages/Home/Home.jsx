@@ -1,3 +1,4 @@
+import About from "../../Components/About/About";
 import Banner from "../../Components/Banner/Banner";
 import Contact from "../../Components/Contact/Contact";
 import Education from "../../Components/Education/Education";
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <div>
            <Banner></Banner>
+           <About></About>
            <Skills></Skills>
            <Education></Education>
            <Projects></Projects>

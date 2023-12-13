@@ -1,15 +1,14 @@
 import bannerImg from "./../../assets/banner.gif";
 import { Typewriter } from "react-simple-typewriter";
-import ResumePdf from "./../../assets/Resume.pdf";
 import { FaGithub, FaLinkedin, FaFacebook, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import ResumePdf from "./../../assets/Resume.pdf";
 const Banner = () => {
   // "Front End Developer", "Mern Stack Developer"
   const handleType = () => {
     // access word count number
     // console.log(count)
   };
-
   const handleDone = () => {
     console.log(`Done after 5 loops!`);
   };
@@ -53,7 +52,11 @@ const Banner = () => {
             </span>
           </h1>
           <div className="my-2">
-            <a href={ResumePdf} className="btn btn-primary text-white" download={"Resume"}>
+            <a
+              href={ResumePdf}
+              className="btn btn-primary text-white"
+              download={"Resume"}
+            >
               Download Resume
             </a>
           </div>
