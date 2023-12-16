@@ -8,7 +8,7 @@ const About = () => {
   const [isOpen1, setOpen1] = useState(false);
   return (
     <div className="my-2  ">
-      <SharedTitle heading={"About me"}></SharedTitle>
+      <SharedTitle heading={"About me"} subHeading={"React maestro, full-stack architect"}></SharedTitle>
       <div className="flex flex-col md:flex-row gap-5 items-start justify-center ">
         <div className="flex items-center justify-center w-1/2">
           <div className="">

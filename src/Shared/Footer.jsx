@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img from "../../public/I.svg"
 const Footer = () => {
   return (
-    <footer className="footer p-5">
+    <footer className="footer p-5 bg-stone-100">
       <aside>
         <p>
           <img src={img} alt="" className="w-20 h-20" />
@@ -12,7 +12,7 @@ const Footer = () => {
       </aside>
       <nav>
         <header className="footer-title">Social</header>
-        <div className="grid grid-flow-col gap-4">
+        <div className="grid grid-flow-col gap-4 text-2xl">
           <Link to="https://github.com/hmsmiraz">
             <FaGithub />
           </Link>

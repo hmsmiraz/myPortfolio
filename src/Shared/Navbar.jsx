@@ -25,7 +25,10 @@ const Navbar = () => {
       <div className="navbar-start">
         <img src="/I.svg" alt="" className="h-16 w-16" />
         <a className="btn btn-ghost text-xl font-bold">
-          HMS<span className="text-cyan-500">MIRAZ</span>
+          <p className="font-bold uppercase">
+            hms
+            <span className="text-cyan-600">miraz</span>
+          </p>
         </a>
       </div>
 
