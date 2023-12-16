@@ -1,0 +1,12 @@
+.card {
+    background: white;
+    padding: 2rem 4rem;
+
+}
+.card p {
+    padding-top: 1rem;
+    line-height: 100%;
+}
+.expand {
+    width: 12rem;
+}

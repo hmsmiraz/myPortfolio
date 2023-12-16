@@ -24,19 +24,18 @@ const Contact = () => {
       );
   };
   return (
-    <div className="my-5">
       <div>
-        <div className="hero shadow-lg my-10">
+        <div className="hero">
           <div className="hero-content flex-col lg:flex-row py-20">
-            <div className="text-center lg:text-left">
-              <h1 className="text-5xl font-bold">Contact With Me!</h1>
-              <p className="py-6">
-                Feel free to tell me about your plans and events! Do not
-                hesitate to message me. I will contact with you soon,
+            <div className="text-center  lg:text-left">
+              <h1 className="text-xl lg:text-5xl font-bold">Contact With Me!</h1>
+              <p className= "mx-auto py-6">
+                Feel free to tell me about your plans  <br />  and events! Do not
+                hesitate to  <br />  message me. I will contact with <br /> you soon,
                 Inshallah.
               </p>
             </div>
-            <div className="card flex-shrink-0 w-full px-5  max-w-sm shadow-2xl bg-base-100">
+            <div className="card flex-shrink-0 w-full px-5  max-w-sm">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="form-control">
                   <label className="label">
@@ -82,7 +81,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

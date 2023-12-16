@@ -51,6 +51,7 @@ const Banner = () => {
               />
             </span>
           </h1>
+          <p className="font-semibold">I am the puppeteer of perception, crafting interfaces that dance with your fingertips.</p>
           <div className="my-2">
             <a
               href={ResumePdf}
