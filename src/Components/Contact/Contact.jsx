@@ -35,7 +35,7 @@ const Contact = () => {
                 Inshallah.
               </p>
             </div>
-            <div className="card flex-shrink-0 w-full px-5  max-w-sm">
+            <div className="card flex-shrink-0 w-full px-5 max-w-sm">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="form-control">
                   <label className="label">
